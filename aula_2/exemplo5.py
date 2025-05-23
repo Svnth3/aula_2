@@ -20,4 +20,6 @@ quantidade_organizada = df.sort_values(by='Unidades Vendidas', ascending=True)
 
 print(quantidade_vendida.values)
 
+satisfação = df[df['Satisfação'] == "Baixo"]
+print(satisfação)
 
